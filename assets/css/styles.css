@@ -1,0 +1,112 @@
+@import url(/assets/css/reset.css);
+
+header {
+    background-image: url(/assets/images/Header\ Background.png);
+    width: 100%;
+    color: #ffffff;
+}
+
+header .header-container{
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+header button {
+    border-radius: 20px;
+    border-style: none;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+    align-items: center;
+}
+
+header #button-open {
+    background-color: #23272A;
+    color: #ffffff;
+}
+
+
+section{
+    color: #23272A;
+}
+
+.section2, .section4{
+    background-color: #F6F6F6;
+}
+
+.section1{
+    background-color: pink;
+    display: flex;
+    align-items: auto;
+}
+
+.section1 img{
+    background-color: #23272A;
+    
+   
+}
+
+.section4{
+    text-align: center;
+}
+
+.section4 p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.section4 img{
+    border-top: 0;
+    padding-top: 0;
+}
+
+section img {
+    max-width: 100%;
+    
+}
+
+section h1{
+    margin-bottom: 20px;
+    
+}
+
+.caixa-texto{
+    background-color: aqua;
+}
+
+section h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer {
+    width: 100%;
+    background-color: #23272A;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px){
+    .header-container{
+        padding-bottom: 10px;
+    }
+    
+    .text-header{
+        text-align: left;
+    }
+
+    #button-open{
+        margin-bottom: 10px;
+    }
+
+
+}
