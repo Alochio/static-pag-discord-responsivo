@@ -2,18 +2,18 @@
 
 header {
     background-image: url(/assets/images/Header\ Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    color: #ffffff;
+    margin-bottom: 50px;
 }
 
-header .header-container{
+header .header-container {
     width: 80%;
-    margin: 30px auto;
-    margin-top: 0;
+    margin: 0 auto;
     text-align: center;
     padding-top: 30px;
 }
-
 
 header button {
     border-radius: 20px;
@@ -29,6 +29,99 @@ header #button-open {
     color: #ffffff;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "img01 text01"
+        "text02 img02"
+        "img03 text03"
+        "text04 text04"
+        "img04 img04";
+}
+
+main .img01 {
+    grid-area: img01;
+    margin-top: 10px;
+}
+
+main .img01 img,
+main .img03 img {
+    max-width: 100%;
+    text-align: left;
+}
+
+main .img02 {
+    grid-area: img02;
+}
+
+main .img02 img {
+    max-width: 100%;
+    text-align: right;
+}
+
+main .img03 {
+    grid-area: img03;
+}
+
+main .img04 {
+    grid-area: img04;
+}
+
+main .img04 img {
+    max-width: 100%;
+    width: 50%;
+    background-color: #23272A;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+main .text01 {
+    grid-area: text01;
+    align-items: center;
+    width: 400px;
+}
+
+main .text01 h1,
+p {
+    margin-bottom: 10px;
+}
+
+main .text02 {
+    grid-area: text02;
+    width: 400px;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 40%;
+    padding-top: 60px;
+}
+
+main .text03 {
+    grid-area: text03;
+    width: 400px;
+    padding-top: 60px;
+
+}
+
+main .text03 h1,
+p {
+    margin-bottom: 10px;
+}
+
+main .text04 {
+    grid-area: text04;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+main .text04 h1,
+p {
+    margin-bottom: 20px;
+}
+
+
+/*
 
 section{
     color: #23272A;
@@ -83,6 +176,8 @@ section h1{
     font-size: 24px;
 }
 
+*/
+
 footer {
     width: 100%;
     background-color: #23272A;
@@ -95,18 +190,74 @@ footer img {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width:600px){
-    .header-container{
+@media screen and (max-width:600px) {
+    .header-container {
         padding-bottom: 10px;
     }
-    
-    .text-header{
+
+    .text-header {
         text-align: left;
     }
 
-    #button-open{
+    #button-open {
         margin-bottom: 10px;
     }
 
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "img01"
+            "text01"
+            "img02"
+            "text02"
+            "img03"
+            "text03"
+            "text04"
+            "img04";
+    }
 
+    .img01 {
+        margin: 30px auto;
+    }
+
+    .img02 {
+        margin: 30px auto;
+    }
+
+    .img03 {
+        margin: 30px auto;
+    }
+
+    .img04 {
+        margin: 30px auto;
+    }
+
+    .text01 {
+        margin: 30px auto;
+    }
+
+    .text02 {
+        background-color: #23272A;
+        
+        
+    
+    }
+
+    .text03 {
+        background-color: green;
+        
+    }
+
+    .text04 {
+        margin: 30px auto;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    h1 {
+        font-size: 24px;
+    }
 }
