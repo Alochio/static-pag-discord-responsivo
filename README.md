@@ -22,13 +22,13 @@ Para utilizar este projeto, siga as instruções abaixo:
 
 Aqui estão alguns screenshots do projeto em diferentes tamanhos de tela:
 
-[img-01](/assets/imgs-readme/01.PNG)
-[img-02](/assets/imgs-readme/02.PNG)
-[img-03](/assets/imgs-readme/03.PNG)
-[img-04](/assets/imgs-readme/04.PNG)
-[img-05](/assets/imgs-readme/05.PNG)
-[img-06](/assets/imgs-readme/06.PNG)
-[img-07](/assets/imgs-readme/07.PNG)
+![img-01](/assets/imgs-readme/01.PNG)
+![img-02](/assets/imgs-readme/02.PNG)
+![img-03](/assets/imgs-readme/03.PNG)
+![img-04](/assets/imgs-readme/04.PNG)
+![img-05](/assets/imgs-readme/05.PNG)
+![img-06](/assets/imgs-readme/06.PNG)
+![img-07](/assets/imgs-readme/07.PNG)
 
 ## Estrutura do Projeto
 
