@@ -92,7 +92,6 @@ main .text02 {
     width: 400px;
     text-align: left;
     margin-right: 0;
-    margin-left: 40%;
     padding-top: 60px;
 }
 
@@ -119,64 +118,6 @@ main .text04 h1,
 p {
     margin-bottom: 20px;
 }
-
-
-/*
-
-section{
-    color: #23272A;
-}
-
-.section2, .section4{
-    background-color: #F6F6F6;
-}
-
-.section1{
-    background-color: pink;
-    display: flex;
-    align-items: auto;
-}
-
-.section1 img{
-    background-color: #23272A;
-    
-   
-}
-
-.section4{
-    text-align: center;
-}
-
-.section4 p{
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.section4 img{
-    border-top: 0;
-    padding-top: 0;
-}
-
-section img {
-    max-width: 100%;
-    
-}
-
-section h1{
-    margin-bottom: 20px;
-    
-}
-
-.caixa-texto{
-    background-color: aqua;
-}
-
-section h1{
-    font-weight: bold;
-    font-size: 24px;
-}
-
-*/
 
 footer {
     width: 100%;
@@ -235,24 +176,24 @@ footer img {
 
     .text01 {
         margin: 30px auto;
+        text-align: center;
     }
 
     .text02 {
-        background-color: #23272A;
-        
-        
-    
+        margin: 30px  auto;
+        text-align: center;
     }
 
     .text03 {
-        background-color: green;
+        text-align: center;
+        margin: 30px auto;
         
     }
 
     .text04 {
+        text-align: center;
         margin: 30px auto;
     }
-
 
 }
 
